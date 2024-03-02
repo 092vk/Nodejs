@@ -6,9 +6,17 @@ const sub = (a,b) => {
     return a-b; 
 }
 
-module.exports = {
-    add,sub
-}
+// module.exports = {
+//     add,sub
+// }
+
+
+// Es module 
+// default export allows you to import that module by any name 
+export {add,sub};
+
+
+
 
 // module.exports={
 //     addFunc:add,
