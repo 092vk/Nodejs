@@ -2,10 +2,12 @@
 //log the details of each request received with date,\
 
 
-import http from 'http';
+import http from 'http';//this will be the library which will be used to make the server 
+
 import fs from 'fs';
 
 const server = http.createServer((req,res)=>{
+    
     const log = `${Date.now()}: ${req.url} new req received \n`;
     console.log("received a request");
     fs.appendFile('./logs.txt',log,(err,content)=>{
