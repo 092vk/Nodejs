@@ -1,0 +1,26 @@
+MONGODB --> 
+
+1.it is a No-SQL "document" based Database while the mysql is a SQL "tables" based Databse 
+
+2.it has strong support for aggregation pipes 
+3.It works on BSON format
+4.Best for NODE applicatons 
+
+
+
+        MONGODB                          mysql
+    1.COllections                       1.Tables 
+    2.collections --> documents
+
+
+
+
+
+
+//some basic mongoDB commands 
+1. mongosh --> to start the mongo shell
+2. show dbs --> to list all the dbs 
+3. use <db name>
+4. show collections --> shows the collections(tables) in the database above selected 
+5. db.coll.find()
+6. db.coll.insert()
