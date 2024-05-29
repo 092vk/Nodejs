@@ -1,0 +1,6 @@
+--> mongose helps us in connecting the mongodb to the node appliction 
+
+Schema --> Define the structure 
+    Schema - Model 
+    Using Model we do CRUD opeartions 
+    
