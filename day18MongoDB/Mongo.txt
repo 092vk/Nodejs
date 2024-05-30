@@ -2,7 +2,7 @@ MONGODB -->
 
 1.it is a No-SQL "document" based Database while the mysql is a SQL "tables" based Databse 
 
-2.it has strong support for aggregation pipes 
+2.it has strong support for **aggregation pipes** 
 3.It works on BSON format
 4.Best for NODE applicatons 
 

@@ -1,0 +1,8 @@
+//Mvc --> Model view controller 
+
+this basically intends to segregate the files in three parts for better understanding 
+
+1.controllers 
+2.view 
+3.routes
+4.models
